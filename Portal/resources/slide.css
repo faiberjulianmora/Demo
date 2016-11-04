@@ -1,0 +1,97 @@
+/*#msg-div {
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    height: 95px;
+    margin-left: -200px;
+    z-index: 20000;
+}
+
+.x-title-slide{
+    font-size: 15px;
+    font-weight: 600;
+}
+.mensajeInformacion {
+    background: #FFFFFF;
+    background-image:url('Img/icons/slide/Informacion.png')!important;
+    background-repeat:no-repeat;
+    background-position: right;
+    border-left: 5px solid #4DFF00;
+    padding: 15px 0px 0px 10px;
+    color: #A1232F;
+    height: 95px;
+}
+.mensajeAdvertencia {
+    background: #FFFFFF;
+    padding: 30px 0px 0px 10px;
+    height: 100px;
+    color: #FF7F00;
+}
+.mensajeError {
+    background: #FFFFFF;
+    background-image:url('Img/icons/slide/Error.png')!important;
+    background-repeat:no-repeat;
+    background-size: 87px 87px;
+    background-position: right;
+    border-left: 5px solid #A1232F;
+    padding: 15px 0px 0px 10px;
+    color: #A1232F;
+    height: 95px;
+}
+
+.iconoSlide{
+    font-size: 70px;
+    padding-left: 230px;
+}*/
+
+
+
+#msg-div {
+    position:absolute;
+    left:50%;
+    width:400px;
+    height: 95px;
+    margin-left:-200px;
+    z-index:20000;
+}
+
+.x-title-slide{
+    font-size: 15px;
+    font-weight: 600;
+}
+.mensajeInformacion {
+    background: #FFFFFF;
+    background-repeat:no-repeat;
+    background-size: 85px 85px;
+    background-position: right;
+    border-left: 5px solid #51FF00;
+    padding: 15px 0px 0px 10px;
+    color: #282828;
+    height: 95px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+}
+.mensajeAdvertencia {
+    background: #FFFFFF;
+    background-repeat:no-repeat;
+    background-size: 85px 85px;
+    background-position: right;
+    border-left: 5px solid #FF7F00;
+    padding: 15px 0px 0px 10px;
+    color: #FF7F00;
+    height: 95px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+}
+.mensajeError {
+    background: #FFFFFF;
+    background-repeat:no-repeat;
+    background-size: 85px 85px;
+    background-position: right;
+    border-left: 5px solid #A1232F;
+    padding: 15px 0px 0px 10px;
+    color: #A1232F;
+    height: 95px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+}
