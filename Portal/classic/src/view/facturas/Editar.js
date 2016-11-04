@@ -11,6 +11,14 @@ Ext.define('Portal.view.facturas.Editar',{
         'Portal.extend.TextFieldExtend'
     ],
     items:[{
+        xtype:'textFieldExtend',
+        fieldLabel: 'Numero Referencia',
+        name:'reference_number'
+    },{
+        xtype:'textFieldExtend',
+        fieldLabel:'Cliente',
+        name:'customer_name'
+    },{
         xtype: 'dateFieldExtend',
         fieldLabel: 'Fecha',
         name: 'date',
